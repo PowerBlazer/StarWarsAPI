@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StarWarsAPI</name>
+    </assembly>
+    <members>
+        <member name="M:StarWarsAPI.Controllers.V1.CharacterController.GetAllCharacters(System.String,System.Int32,System.Int32)">
+            <summary>
+            Получение персонажей с пагинацией и поиском по имени
+            </summary>
+            <param name="searchValue">Значение поиска (name)</param>
+            <param name="page">Страница</param>
+            <param name="count">Количество записей</param>
+            <returns></returns>
+            <response code="200">Список персонажей</response>
+            <response code="500">Ошибка на сервере</response>
+        </member>
+        <member name="M:StarWarsAPI.Controllers.V1.CharacterController.GetCharacterById(System.Int32)">
+            <summary>
+            Получить подробную информацию персонажа
+            </summary>
+            <param name="id">Id персонажа</param>
+            <returns></returns>
+            <response code="200">Возвращает список сообщении группового чата</response>
+            <response code="404">Персонаж не найден</response>
+            <response code="500">Ошибка на сервере</response>
+        </member>
+        <member name="M:StarWarsAPI.Controllers.V1.CharacterController.UpdateCharacter(System.Int32,StarWarsAPI.DTOs.UpdateCharacterDto)">
+             <summary>
+             Редактировать данные о персонаже
+             </summary>
+             <param name="id">Id персонажа</param>
+             <param name="updateCharacterDto">Новая информация о персонаже</param>
+             <returns></returns>
+            <response code="200">Возвращает обновленного персонажа</response>
+            <response code="400">Ошибка доступа к персонажу</response>
+            <response code="404">Персонаж не найден</response>
+            <response code="500">Ошибка на сервере</response>
+        </member>
+        <member name="M:StarWarsAPI.Controllers.V1.CharacterController.CreateCharacter(StarWarsAPI.DTOs.CreateCharacterDto)">
+            <summary>
+            Создание персонажа
+            </summary>
+            <param name="createCharacterDto">Информация о персонаже</param>
+            <returns></returns>
+            <response code="200">Возвращает созданного персонажа</response>
+            <response code="500">Ошибка на сервере</response>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.Name">
+            <summary>
+            Имя
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.BirthDate">
+            <summary>
+            День рождение
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.HomeWorld">
+            <summary>
+            Родная планета
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.Gender">
+            <summary>
+            Пол
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.Species">
+            <summary>
+            Раса
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.Height">
+            <summary>
+            Рост
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.HairColor">
+            <summary>
+            Цвет волос
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.EyeColor">
+            <summary>
+            Цвет глаз
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.Description">
+            <summary>
+            Описание
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Character.OwnerId">
+            <summary>
+            Создатель персонажа
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Movie.Title">
+            <summary>
+            Название
+            </summary>
+        </member>
+        <member name="P:StarWarsAPI.Entities.Movie.CharacterId">
+            <summary>
+            Персонаж
+            </summary>
+        </member>
+        <member name="M:StarWarsAPI.Services.Abstraction.ICharacterService.GetCharactersAsync(System.String,System.Int32,System.Int32)">
+            <summary>
+            Получить персонажей с пагинацией и поиском
+            </summary>
+            <param name="searchSetting">Value search</param>
+            <param name="count">Character Count</param>
+            <param name="startIndex">Start index characters</param>
+            <returns>List characters</returns>
+        </member>
+        <member name="M:StarWarsAPI.Services.Abstraction.ICharacterService.GetCharacterByIdAsync(System.Int32)">
+            <summary>
+            Получить персонажа по айди
+            </summary>
+            <param name="id">Id Character</param>
+            <returns>Character Object</returns>
+        </member>
+        <member name="M:StarWarsAPI.Services.Abstraction.ICharacterService.UpdateCharacterAsync(StarWarsAPI.Entities.Character)">
+            <summary>
+            Обновление данных о персонаже
+            </summary>
+            <param name="updatedCharacter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StarWarsAPI.Services.Abstraction.ICharacterService.CreateCharacterAsync(StarWarsAPI.Entities.Character)">
+            <summary>
+            Создать нового персонажа
+            </summary>
+            <param name="newCharacter">New Character</param>
+            <returns>New character</returns>
+        </member>
+    </members>
+</doc>

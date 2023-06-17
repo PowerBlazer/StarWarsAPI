@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5XFULrSdAsBCi2jugzh6kp1mXmMHmEdm7KWwoss/uK/PDVOZgjs2Fa9CdC2t1ActCk0MgRjqV+yM/XIgxw6u+A==",
+  "dgSpecHash": "8tx44dmmyF9KITxp3xjvThIiKuyQe99jd12kPePBFI5Qr6xssYfZslBKWo81y+m+6lFJh60cdNqy9MBhRIXWng==",
   "success": true,
-  "projectFilePath": "D:\\Прогры\\StarWarsAPI\\StarWarsAPI\\StarWarsAPI.csproj",
+  "projectFilePath": "D:\\GitHub\\StarWarsAPI\\src\\StarWarsAPI\\StarWarsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\power\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\power\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

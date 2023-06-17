@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Прогры\\StarWarsAPI\\StarWarsAPI\\StarWarsAPI.csproj": {}
+    "D:\\GitHub\\StarWarsAPI\\src\\StarWarsAPI\\StarWarsAPI.csproj": {}
   },
   "projects": {
-    "D:\\Прогры\\StarWarsAPI\\StarWarsAPI\\StarWarsAPI.csproj": {
+    "D:\\GitHub\\StarWarsAPI\\src\\StarWarsAPI\\StarWarsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Прогры\\StarWarsAPI\\StarWarsAPI\\StarWarsAPI.csproj",
+        "projectUniqueName": "D:\\GitHub\\StarWarsAPI\\src\\StarWarsAPI\\StarWarsAPI.csproj",
         "projectName": "StarWarsAPI",
-        "projectPath": "D:\\Прогры\\StarWarsAPI\\StarWarsAPI\\StarWarsAPI.csproj",
+        "projectPath": "D:\\GitHub\\StarWarsAPI\\src\\StarWarsAPI\\StarWarsAPI.csproj",
         "packagesPath": "C:\\Users\\power\\.nuget\\packages\\",
-        "outputPath": "D:\\Прогры\\StarWarsAPI\\StarWarsAPI\\obj\\",
+        "outputPath": "D:\\GitHub\\StarWarsAPI\\src\\StarWarsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\power\\AppData\\Roaming\\NuGet\\NuGet.Config",
